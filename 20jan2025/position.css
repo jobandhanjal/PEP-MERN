@@ -1,0 +1,44 @@
+.rel-pos{
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    position: relative;
+    left: 100px;
+}
+
+.abs-parent {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(0, 47, 128);
+    background-color: antiquewhite;
+    position: relative;
+}
+.abs-pos {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(225, 162, 81);
+    border: 2px solid green;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+
+.fix-pos{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(227, 219, 114);
+    border: 1px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+
+}
+
+.sticky-pos{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(50, 206, 47);
+    border: 1px solid rgb(0, 0, 0);
+    position: sticky;
+    top: 5px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="./position.css">
+</head>
+<body>
+    <!--- static position demo -->
+    <h1 style="color: red; margin-top: 50px">static heading</h1>
+    <div style="width: 100px;height: 100px;border: 2px solid red; ">Static box</div>
+    
+    <!-- relative position demo -->
+     <p>Relative paragraph</p>
+     <div class="rel-pos">
+        relative box
+     </div>
+
+     <!-- Absolute position demo -->
+     <p>Absolute paragraph</p>
+     <div class="abs-parent">
+        <div class="abs-pos">
+            Absolute box
+         </div>
+     </div>
+
+     <!-- fixed position demo -->
+     <p>fixed paragraph</p>
+     <div class="fix-pos">
+        fixed box
+     </div>
+
+     <!-- sticky position demo -->
+     <p>sticky paragraph</p>
+     <div class="sticky-pos">
+        sticky box
+     </div>
+
+
+
+     <!-- 
+        static -- by default every element is static
+        relative -- relative to its original position
+        absolute -- relative to its nearest parent positioned element
+        fixed -- fixed
+        sticky -- relative+fixed(once reach to defined offset it will behave like fixed )
+    -->
+
+</body>
+</html>

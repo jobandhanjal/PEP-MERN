@@ -1,0 +1,20 @@
+.bac{
+    background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/city-wallpaper-1.jpg);
+}
+.sec1{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: xxx-large;
+}
+.sec2{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: xx-large;
+    margin-right: 54%;
+}
+img{
+    height: 50px;
+    width: 100px;
+    margin-left: 10%;
+    margin-top: 2%
+}
