@@ -1,0 +1,19 @@
+
+.task-list-main {
+    margin: 1.5rem 2rem;
+    padding: 2rem;
+    background-color: yellow;
+}
+
+.task-list-title {
+    margin: 1rem;
+    text-align: center;
+    color: darkblue;
+}
+
+.task-list-task-container {
+    margin: 1rem;
+    border: 2px solid grey;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "03feb2025",
+  "version": "1.0.0",
+  "description": "Server1.js",
+  "main": "server1.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PepMern"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Joban",
+  "license": "ISC"
+}
